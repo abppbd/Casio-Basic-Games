@@ -8,7 +8,7 @@ This is a list of classic games coded by [abppbd](https://github.com/abppbd) in 
 - [Tic Tac Toe](#tic-tac-toe)
 - [Connect 4](#connect-4)
 - [3D renderer](#3d-renderer) (WIP)
-- [Pong](pong) (broken)
+- [Pong](#pong) (broken)
 
 ## How to upload the code to calculator
 ### With the text file (.txt)
