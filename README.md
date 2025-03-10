@@ -5,9 +5,10 @@ This is a list of classic games coded by [abppbd](https://github.com/abppbd) in 
 - [Upload to calculator](#how-to-upload-the-code-to-calculator)
 - [Snake](#snake)
 - [Minesweeper](#minesweeper)
-- [Pong](pong) (broken)
-- [Connect 4](#connect-4) (WIP)
+- [Tic Tac Toe](#tic-tac-toe)
+- [Connect 4](#connect-4)
 - [3D renderer](#3d-renderer) (WIP)
+- [Pong](pong) (broken)
 
 ## How to upload the code to calculator
 ### With the text file (.txt)
@@ -62,6 +63,47 @@ Rules: Clear the terrain by uncovering every non-mine tiles without triggering a
 Note: This implementation of minesweeper has a flood fill zero clearing algorithm !
 Note2: The greater the number of mines the slower the terrain generation might be !
 
+## Tic Tac Toe
+/!\\ This is a two player game !
+
+Rules: Win a match by aligning 3 of your marks (X or O) down, across or in a diagonal. This game is endless, play until the turnament is done.
+
+- In the main menu:
+  - Start: Press enter (EXE).
+- In game:
+  - Use the numerical pad (0 to 9) to fill in the corresponding cell on the screen.
+  - Use enter (EXE) to proceed to the next match (a tally is keept of ties, X's wins & O's wins).
+  - Use EXIT to finish the turnament (the final tally will be shown).
+  - When a cell is marked the next player's turn begins.
+
+[Text code](https://github.com/abppbd/Casio-Basic-Games/raw/refs/heads/main/Text%20code/TICTACTO.txt) | [g3m code](https://github.com/abppbd/Casio-Basic-Games/raw/refs/heads/main/g3m%20code/TICTACTO.g3m)
+
+## Connect 4
+/!\\ This is a two player game !
+
+Rules: Align four of your chips while blocking the opponent's chips to win.
+
+- In Main menu:
+  - Start: Pressing enter (EXE).
+- In game:
+  - Use the right (>) or left (<) arrows to control your chip (black or white).
+  - Use enter (EXE) to drop your chip (a pipe shows you where the chip will fall).
+  - When a chip is droped the next player's turn begins.
+
+[Text code](https://github.com/abppbd/Casio-Basic-Games/raw/refs/heads/main/Text%20code/CONNECT4.txt) | [g3m code](https://github.com/abppbd/Casio-Basic-Games/raw/refs/heads/main/g3m%20code/CONNECT4.g3m)
+
+## 3D renderer
+/!\\ This game is a work in progress !
+
+Rules: This is a simple demo for Doom style (a.k.a 2.5D) rendering.
+
+- In game:
+  - Use the up (^) and down (v) arrowss to move forward and backwards.
+  - Use the right (>) or left (<) arrows to turn right and left.
+  - Use function 2 (F2) or function 1 (F1) keys to strafe right and left.
+
+[Text code](https://github.com/abppbd/Casio-Basic-Games/raw/refs/heads/main/Text%20code/3DRENDER.txt) | [g3m code](https://github.com/abppbd/Casio-Basic-Games/raw/refs/heads/main/g3m%20code/SNAKE.g3m)
+
 ## Pong
 /!\\ This is a two player game !
 
@@ -77,29 +119,3 @@ Rules: Send the ball in the adversary's camp using your pads. !
 Note: This game is unfinished, the collision handling has some problem and may cause the game to crash !
 Note2: The buttons need to be spamed for the two players to control their pads at the same time !
 
-## Connect 4
-/!\\ This game is a work in progress !
-/!\\ This is a two player game !
-
-Rules: Align four of your chips while blocking the opponent to win.
-
-- In Main menu:
-  - Start the game by pressing enter (EXE).
-- In game:
-  - Use the right (>) or left (<) arrows to control the next chip.
-  - Use enter (EXE) to drop your chip.
-  - When a chip is droped the next player's turn begins.
-
-[Text code](https://github.com/abppbd/Casio-Basic-Games/raw/refs/heads/main/Text%20code/POWER4.txt) | [g3m code](https://github.com/abppbd/Casio-Basic-Games/raw/refs/heads/main/g3m%20code/POWER4.g3m)
-
-## 3D renderer
-/!\\ This game is a work in progress !
-
-Rules: This is a simple demo for Doom style (a.k.a 2.5D) rendering.
-
-- In game:
-  - Use the up (^) and down (v) arrowss to move forward and backwards.
-  - Use the right (>) or left (<) arrows to turn right and left.
-  - Use function 2 (F2) or function 1 (F1) keys to strafe right and left.
-
-[Text code](https://github.com/abppbd/Casio-Basic-Games/raw/refs/heads/main/Text%20code/3DRENDER.txt) | [g3m code](https://github.com/abppbd/Casio-Basic-Games/raw/refs/heads/main/g3m%20code/SNAKE.g3m)
